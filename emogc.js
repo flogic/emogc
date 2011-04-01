@@ -13,3 +13,7 @@ function imageTagForString(str) {
   
   return "<img alt='" + str + "' title='" + str + "' src='https://github.com/flogic/emogc/raw/develop/images/" + str + ".png' />";
 }
+
+function emogcize() {
+  $('p').replaceText(/:([a-z_-]|[0-9])*:/gi, emogcize)
+}
