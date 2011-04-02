@@ -4,7 +4,7 @@
 function imageTagForString(str) {
   label = str.substr(1, str.length - 2);
   return "<img alt='" + str + "' title='" + str + 
-         "' src='https://github.com/flogic/emogc/raw/develop/images/" + label + ".png' />";
+         "' src='https://github.com/flogic/emogc/raw/master/images/" + label + ".png' />";
 }
 
 $('*').replaceText(/:([a-z]\w*):/gi, imageTagForString);
