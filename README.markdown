@@ -17,3 +17,5 @@ Using [defunkt's](https://github.com/defunkt) awesome-ass [dotjs](https://github
  - Already have a ~/.js/github.com.js?  Add the contents of emogc's .js/github.com.js file to your ~/.js/github.com.js file.
  - Otherwise, create a ~/.js directory and copy emogc's .js/github.com.js file in
  - Have fun!
+
+--:ogc:
